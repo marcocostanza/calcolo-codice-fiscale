@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#codice_fiscale{
+    max-width: 600px;
+    margin: 100px auto;
+    border: solid 1px;
+}
+
+#codice_fiscale > div {
+    background: linear-gradient(to bottom, #41C112 0%,#029b00 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#41C112', endColorstr='#029b00',GradientType=0 );
+    padding: 20px 0;
+}
+
+#codice_fiscale > div h1 {
+    text-align: center;
+    color: #fff;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+form div {
+    margin: 10px 0;
+}
+
+.full {
+    width: 100%;
+    padding: 0 10px;
+}
+
+._75 {
+    width: 75%;
+    padding: 0 10px;
+}
+
+._25 {
+    width: 25%;
+    padding: 0 10px;
+}
+
+input[type="text"], select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+input[type="submit"] {
+    background: #20ad09;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    padding: 5px 10px;
+    font-size: 18px;
+    margin: 0 0 0 10px;
+}
+
+#data {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+#data div {
+    margin: 0 15px 0 0;
+}
+
+#risultato {
+    font-size: 24px;
+    font-weight: 700;
+}
